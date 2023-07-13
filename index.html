@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money Master</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="money-master-container">
+
+    <div class="headline-container">
+      <div class="headline">
+
+        <h1 class="money-master-headline">Money Master</h1>
+  
+      </div>
+    </div>
+
+    <div class="main-contain">
+
+      <div class="picture">
+
+        <img src="pexels-david-mcbee-730547.jpg" alt="">
+  
+      </div>
+      <div class="expenses">
+
+        <div class="second-section-container">
+
+          <div class="income">
+            <h2 class="income-heading">Income</h2>
+  
+            <p >Income: </p>
+            <input id="income-input" style="height:20px;" type="text" name="">
+  
+  
+          </div>
+          <div class="expenses-container">
+  
+            <h2 class="expenses-heading">Expenses</h2>
+  
+            <p>Food:</p>
+            <input id="food-input" style="height:20px;" class="input-field" type="text" name="" id="">
+  
+            <p>Rent:</p>
+            <input id="rent-input" style="height:20px;" class="input-field" type="text" name="" id="">
+  
+            <p>Clothes:</p>
+            <input id="cloths-input" style="height:20px;" class="input-field" type="text" name="" id="">
+  
+          </div>
+
+          <div class="calculate-total-expenses">
+            <button id="btn1" class="calculate-btn btn">Calculate</button>
+            <button id="reset-btn" class="calculate-btn btn">Reset</button> <!-- Added reset button -->
+            <h2>Total Expenses: <span id="total-expenses">0</span> tk</h2>
+            <h2>Balance: <span id="balance">0</span> tk</h2>
+          </div>
+  
+         
+
+          <div class="save">
+
+            <input id="save-input" style="height:20px;" class="input-field" type="text" name="" id="">
+
+            <p class="percentage">%</p>
+
+            <button id="save-btn1" class="save-btn btn">Save</button>
+
+
+
+          </div>
+          <h2>Saving Amount: <span id="saving-amount">0</span> tk</h2>
+
+          <h2>Remaining Balance: <span id="remaining-balance">0</span> tk</h2>
+  
+
+
+        </div>
+
+       
+        
+  
+      </div>
+
+
+    </div>
+    
+   
+  </div>
+
+  <script src="utilities.js"></script>
+
+  <script src="calculate.js"></script>
+
+  <script src="save.js"></script>
+
+  <script src="reset.js"></script>
+</body>
+</html>

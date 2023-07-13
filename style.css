@@ -1,0 +1,102 @@
+.headline-container{
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+
+}
+.money-master-headline{
+
+  color: rgb(60, 168, 159);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50px;
+}
+
+
+.picture img{
+
+  height:780px;
+  width: 610px;
+
+}
+.main-contain{
+
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.expenses{
+
+  background-color: rgb(240, 240, 240);
+  height:780px;
+  width: 610px;
+
+  margin-left: 70px;
+
+
+
+
+
+}
+
+.second-section-container{
+
+
+  margin-left: 200px;
+
+
+
+}
+
+.save{
+
+  display: flex;
+
+
+}
+.percentage{
+
+
+  
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 1px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 32px;
+}
+
+.save-btn{
+
+  margin-left: 10px;
+
+}
+
+.calculate-btn{
+
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+ 
+
